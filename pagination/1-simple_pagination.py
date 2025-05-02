@@ -1,7 +1,7 @@
 import csv
 import math
 from typing import List
-simple_pagination = __import__('1-simple_pagination').index_range
+simple_pagination = __import__('0-simple_helper_function').index_range
 
 def index_range(page: int, page_size: int) -> tuple:
     start_index = (page - 1) * page_size
